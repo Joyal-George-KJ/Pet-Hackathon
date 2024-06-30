@@ -4,11 +4,12 @@
 
 ### first thing get everything from GitHub Repo
 
-- `git clone https://github.com/your-username/hackathon-project.git`
+- `git clone https://github.com/Joyal-George-KJ/Pet-Hackathon.git`
 
 ### create a branch in your name
 
-- `git checkout -b develop/your-name`
+- `cd Pet-Hackathon`
+- `git checkout -b your-name`
 
 ### change the branch
 
@@ -20,7 +21,7 @@
 
 - `git add .`
 - `git commit -m "Describe what you did"`
-- `git push origin develop/your-name`
+- `git push origin your-name`
 
 
 ## Creating a Pull Request
