@@ -12,19 +12,19 @@ import EventLeaderboardPage from './pages/EventPage';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/signup" element={<SignUpPage />} />
-        <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/donations" element={<DonationsPage />} />
-        <Route path="/emergency" element={<EmergencyPage />} />
-        <Route path="/services" element={<ServicePage />} />
-        <Route path="/leaderboard" element={<EventLeaderboardPage />} />
-      </Routes>
-    </Router>
+      <Router>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/signup" element={<SignUpPage />} />
+          <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/donations" element={<DonationsPage />} />
+          <Route path="/emergency" element={<EmergencyPage />} />
+          <Route path="/service" element={<ServicePage />} />
+          <Route path="/leaderboard" element={<EventLeaderboardPage />} />
+        </Routes>
+      </Router>
   );
 }
 
