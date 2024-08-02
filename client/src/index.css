@@ -1,1 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+.navbar {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* src/components/Navbar.css */
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 10px 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar a.active {
+  font-weight: bold;
+  color: #007bff;
+}
