@@ -1,17 +1,12 @@
-import { Link } from 'react-router-dom';
+import React from "react";
+import Navbar from "../components/Navbar";
 
-function LandingPage() {
+const LandingPage = () => {
   return (
-    <nav>
-      <ul>
-        <li><Link to="/">Landing Page</Link></li>
-        <li><Link to="/home">Home</Link></li>
-        <li><Link to="/login">Login</Link></li>
-        <li><Link to="/signup">Sign Up</Link></li>
-        {/* Add more links for other pages */}
-      </ul>
-    </nav>
+      <div>
+        <Navbar />
+      </div>
   );
-}
+};
 
-export default LandingPage
+export default LandingPage;
